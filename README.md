@@ -10,6 +10,7 @@ the data from being written and even cause filesystem corruption.
 
 # How to use?
 - Run `sensor_logger_server.py` on a local server, like a Raspberry Pi.
+- Make sure the client machine has `lm_sensors` and `curl` packages installed (`lm_sensors` on Arch Linux, `lm-sensors` for Debian).
 - Edit `sensor_logger_client.bash` and put the IP address of the local server inside.
 - Run `sensor_logger_client.bash`
 - Use your computer normally until your computer crashes or whatever issue you are facing happens then restart.
