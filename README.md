@@ -1,4 +1,4 @@
-# linux_external_sensor_logger
+# external-sensor-logger
 Log sensor data from a Linux machine on an external server.
 
 # What would you use this for?
@@ -23,3 +23,8 @@ the data from being written and even cause filesystem corruption.
 - POST (JSON): `/sensor_logger` - The client logger uses this to submit sensor data, you don't need to touch it.
 
 Note: Using any of the export endpoints or closing the server app clears the logs from the server's temporary memory.
+
+# macOS and Windows support
+The server side will work on both macOS and Windows thanks to Python, except for `/export_to_internal_storage` endpoint.  
+The client side will only work on Linux for now, until I find a solution that works on macOS and Windows. 
+macOS client support may never come though, as I don't own an Apple computer and probably never will.
