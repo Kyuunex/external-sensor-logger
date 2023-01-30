@@ -26,5 +26,5 @@ Note: Using any of the export endpoints or closing the server app clears the log
 
 # macOS and Windows support
 The server side will work on both macOS and Windows thanks to Python, except for `/export_to_internal_storage` endpoint.  
-The client side will only work on Linux for now, until I find a solution that works on macOS and Windows. 
+The client side will only work on Linux for now, until I find a solution that works on Windows.  
 macOS client support may never come though, as I don't own an Apple computer and probably never will.
